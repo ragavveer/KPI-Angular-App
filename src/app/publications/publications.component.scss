@@ -1,0 +1,21 @@
+.publications {
+  padding: 25px;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  > div:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  div:nth-child(2) {
+    font-weight: bold;
+    font-size: 150%;
+  }
+
+  div:nth-child(3) {
+    color: grey;
+    font-size: 70%;
+  }
+}

@@ -1,0 +1,82 @@
+.other-summary {
+  display: flex;
+  height: 135px;
+  justify-content: space-between;
+  div {
+    width: 32%;
+    box-sizing: border-box;
+    padding: 15px 35px;
+  }
+}
+
+.summary {
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.section-headers {
+  display: flex;
+  margin: 15px 0;
+  border-bottom: 0.5px solid lightgrey;
+  padding: 10px 0;
+  div {
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+  }
+  div:nth-child(2) {
+    text-align: right;
+    color: grey;
+  }
+}
+
+.trial-phase-detail-graph {
+  height: 225px;
+  display: flex;
+  justify-content: space-between;
+  > div {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 32%;
+    box-sizing: border-box;
+  }
+}
+
+.time-slider {
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #fff;
+  display: flex;
+  button {
+    font-weight: bold;
+    max-height: 100%;
+  }
+  button:nth-child(1) {
+    padding: 0 0 0 10%;
+    width: 55%;
+  }
+  button:nth-child(2) {
+    width: 20%;
+    text-align: center;
+    padding: 0;
+  }
+  button:nth-child(3) {
+    width: 25%;
+    text-align: right;
+    padding: 0 5% 0 0;
+  }
+}
+
+.range {
+  line-height: 20px;
+  height: 20px;
+  font-weight: bold;
+}
+
+.description {
+  height: 20px;
+  line-height: 20px;
+  font-weight: normal;
+  font-size: 75%;
+}

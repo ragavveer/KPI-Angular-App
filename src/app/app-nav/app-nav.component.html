@@ -1,0 +1,29 @@
+<mat-sidenav-container class="app-nav">
+  <mat-sidenav #sideNav class="side-nav" [opened]="true" mode="side">
+    <button mat-button>
+      <img src="../../assets/images/az.svg" />
+    </button>
+    <button mat-icon-button [routerLink]="['first']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">
+      <mat-icon>show_chart</mat-icon>
+    </button>
+    <button mat-icon-button [routerLink]="['second']" [routerLinkActive]="'active'"  [routerLinkActiveOptions]="{ exact: true }">
+      <mat-icon>people</mat-icon>
+    </button>
+    <button mat-icon-button [routerLink]="['third']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">
+      <mat-icon>description</mat-icon>
+    </button>
+    <button mat-icon-button [routerLink]="['fourth']" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{ exact: true }">
+      <mat-icon>settings</mat-icon>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="flex-container">
+      <div class="main-content">
+        <main-content></main-content>
+      </div>
+      <div class="side-content">
+        <side-content></side-content>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

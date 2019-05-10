@@ -1,0 +1,10 @@
+<div class="phase-trial mat-elevation-z1">
+  <div>
+    <trial-phase-summary [summary]="summary"></trial-phase-summary>
+  </div>
+  <div class="trial-phase-detail">
+    <ng-container *ngFor="let detail of details$ | async; let i = index;">
+      <trial-phase-detail [detail]="detail" [ngClass]="{ last: i === 3 }"></trial-phase-detail>
+    </ng-container>
+  </div>
+</div>

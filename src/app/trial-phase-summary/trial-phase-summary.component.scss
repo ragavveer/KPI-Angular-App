@@ -1,0 +1,54 @@
+:host {
+  > div {
+    padding: 0 2.5px;
+  }
+  > div:nth-child(1) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+
+  > div:nth-child(2) {
+    font-weight: bolder;
+    padding-bottom: 5px;
+  }
+
+  > div:nth-child(4) {
+    display: flex;
+    padding-top: 5px;
+    > div {
+      font-size: 60%;
+      flex-grow: 1;
+    }
+    > div:nth-child(1) {
+      font-weight: bold;
+    }
+    > div:nth-child(2) {
+      color: lightgrey;
+      text-align: right;
+    }
+  }
+}
+
+mat-progress-bar {
+  margin-bottom: 5px;
+}
+
+:host(.othersummary) {
+  ::ng-deep .mat-progress-bar-fill::after {
+    background-color: #52A1FE;
+  }
+
+  ::ng-deep .mat-progress-bar-buffer {
+    background: #DDDDDD;
+  }
+}
+
+::ng-deep .mat-progress-bar-fill::after {
+  background-color: #57B742;
+}
+
+::ng-deep .mat-progress-bar-buffer {
+  background: #DDDDDD;
+}
+

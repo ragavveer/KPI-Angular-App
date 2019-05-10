@@ -1,0 +1,27 @@
+<div class="trial-phase-complete-detail mat-elevation-z1">
+  <div class="trial-phase-detail">
+    <div class="title">
+      {{ trialPhase.title }}
+    </div>
+    <div class="description">
+      {{ trialPhase.description }}
+    </div>
+    <div class="details">
+      <div class="detail" *ngFor="let detail of trialPhase.details">
+        <div>{{ detail.title }}</div>
+        <div>{{ detail.result }}</div>
+        <div>{{ detail.description }}</div>
+        <div>
+          <div class="growth-notifier"></div>
+          {{ detail.growth }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="insight">
+    <div>Latest Insights</div>
+    <ng-container *ngFor="let insight of trialPhase.insights">
+      <insight [insight]="insight" class="small-one"></insight>
+    </ng-container>
+  </div>
+</div>

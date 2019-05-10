@@ -1,0 +1,19 @@
+.phase-trial {
+  display: flex;
+  height: 135px;
+  background-color: #fff;
+  border-radius: 7px;
+  div:nth-child(1) {
+    padding: 15px 25px;
+    width: 30%;
+    border-right: 0.5px solid lightgray;
+  }
+  div:nth-child(2) {
+    padding: 15px 10px;
+    width: 70%;
+  }
+}
+
+.trial-phase-detail {
+  display: flex;
+}

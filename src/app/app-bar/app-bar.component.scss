@@ -1,0 +1,55 @@
+.app-bar {
+  background-color: #FAFBFC;
+  height: 95px;
+  padding: 0;
+  position: fixed;
+  z-index: 9999;
+  width: 95%;
+  margin-left: 79px;
+  border-left: 0.5px solid lightgrey;
+}
+
+.app-title {
+  font-weight: bold;
+  font-size: 175%;
+  width: 60%;
+  padding-left: 60px;
+}
+
+.view-type {
+  width: 20%;
+  font-size: 90%;
+  font-weight: normal !important;
+}
+
+.user-info {
+  width: 20%;
+  font-size: 90%;
+  padding: 15px 0 15px 15px;
+  display: flex;
+  mat-card {
+    padding: 0 !important;
+  }
+}
+
+.user-image {
+  background-image: url('../../assets/images/generic-user-purple.png');
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.user-detail {
+  p {
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  p:nth-child(2) {
+    color: grey;
+    font-size: 80%;
+  }
+}

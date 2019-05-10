@@ -1,0 +1,30 @@
+.insight {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 0.5px solid lightgrey;
+}
+
+div {
+  font-size: 90%;
+  font-weight: bolder;
+}
+
+div:nth-child(2) {
+  padding: 5px 0 0 0;
+  color: gray;
+  font-weight: bold;
+}
+
+div:nth-child(3) {
+  padding: 5px 0 0 0;
+  font-weight: normal;
+  color: grey;
+}
+
+:host(.small-one) {
+  .insight {
+    padding: 10px;
+    background-color: inherit;
+    border-bottom: none;
+  }
+}

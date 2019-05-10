@@ -1,0 +1,11 @@
+<div class="patents mat-elevation-z1">
+  <div>PATENTS (2019)</div>
+  <div class="patent">
+    <ng-container *ngFor="let patent of patents$ | async">
+      <div>
+        <div>{{ patent.count }}</div>
+        <div>{{ patent.status }}</div>
+      </div>
+    </ng-container>
+  </div>
+</div>

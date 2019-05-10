@@ -1,0 +1,100 @@
+.phase-detail-graph {
+  height: 100%;
+  > div {
+    height: 50% !important;
+  }
+}
+
+.phase-detail {
+  box-sizing: border-box;
+  padding: 15px 25px;
+  border-bottom: 3px solid #F4F7F9;
+}
+
+.phase-sub-detail {
+  display: flex;
+  > div {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+  }
+}
+
+.phase-cost {
+  > div:nth-child(1) {
+    color: #54A4FE;
+    font-weight: bold;
+    font-size: 125%;
+  }
+  > div:nth-child(2) {
+    padding: 5px 0;
+    font-size: 65%;
+  }
+}
+
+.phase-duration {
+  border-left: 2px solid #F4F7F9;
+  > div:nth-child(1) {
+    color: grey;
+    font-weight: bold;
+    font-size: 125%;
+    > span {
+      span {
+        font-size: 60%;
+      }
+    }
+  }
+  > div:nth-child(2) {
+    padding: 5px 0;
+    font-size: 65%;
+  }
+}
+
+.phase-number {
+  display: flex;
+  > div {
+    width: 50%;
+  }
+  > div:nth-child(1) {
+    font-weight: bold;
+  }
+  > div:nth-child(2) {
+    text-align: right;
+    font-size: 85%;
+  }
+}
+
+.phase-summary {
+  display: flex;
+  box-sizing: border-box;
+  > div:nth-child(1) {
+    width: 40%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    > div:nth-child(1) {
+      font-weight: bold;
+      font-size: 125%;
+    }
+    > div:nth-child(2) {
+     color: grey;
+     font-size: 85%;
+    }
+  }
+  > div:nth-child(2) {
+    width: 60%;
+  }
+}
+
+.bar-chart {
+  padding: 10px 0 10px 10px;
+  margin-right: -15px;
+  width: 100%;
+  height: 50px;
+}
+
+.line-chart {
+  margin-top: -5px;
+  padding: 10px 0;
+  width: 100px;
+  height: 35px;
+}

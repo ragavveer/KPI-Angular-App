@@ -1,0 +1,46 @@
+<div>
+  <div class="section-headers">
+    <div>KEY MEASURES - ALLASTRAZENECA</div>
+    <div>BIOPHARMA & ONCOLOGY</div>
+  </div>
+
+  <div class="other-summary">
+    <ng-container *ngFor="let summary of summary$ | async">
+      <div class="summary mat-elevation-z1">
+        <trial-phase-summary
+          [summary]="summary"
+          class="othersummary"
+        ></trial-phase-summary>
+      </div>
+    </ng-container>
+  </div>
+
+  <div class="section-headers">
+    <div>STUDIES-BIOPHARMACEUTICALS</div>
+    <div>86 Total Studies</div>
+  </div>
+</div>
+
+<div class="trial-phase-detail-graph">
+  <div *ngFor="let graph of graph$ | async" class="mat-elevation-z1">
+    <trial-phase-detail-graph [graph]="graph"></trial-phase-detail-graph>
+  </div>
+</div>
+
+<div class="time-slider mat-elevation-z1">
+    <button mat-button>
+      <div class="range">1Years 4Months</div>
+      <div class="description">Shortest Study Time</div>
+    </button>
+
+    <button mat-button>
+      <div class="range">3Years 10Months</div>
+      <div class="description">Average Study Time</div>
+    </button>
+
+    <button mat-button>
+      <div class="range">4Years 6Months</div>
+      <div class="description">Longest Study Time</div>
+    </button>
+
+</div>

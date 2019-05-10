@@ -1,0 +1,29 @@
+.section-headers {
+  display: flex;
+  margin: 15px 0;
+  border-bottom: 0.5px solid lightgrey;
+  padding: 10px 0;
+  div {
+      width: 50%;
+      text-align: left;
+      font-weight: bold;
+  }
+  div:nth-child(2) {
+      text-align:right;
+      color: grey;
+  }
+}
+
+.patent-publications {
+  margin-top: 15px;
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+  publications {
+    width: 33%;
+  }
+  patents {
+    width: 64%;
+  }
+}
+

@@ -1,0 +1,42 @@
+<div class="phase-detail-graph">
+  <div class="phase-detail">
+    <div class="phase-number">
+      <div>{{ graph.phase }}</div>
+      <div>{{ graph.rank }}</div>
+    </div>
+    <div class="phase-summary">
+      <div>
+        <div>{{ graph.result }}</div>
+        <div>{{ graph.status }}</div>
+      </div>
+      <div class="bar-chart">
+        <bar-chart></bar-chart>
+      </div>
+    </div>
+  </div>
+
+  <div class="phase-sub-detail">
+    <div class="phase-cost">
+      <div>{{ graph.averageCost }}</div>
+      <div>Average Cost</div>
+      <div class="line-chart">
+        <line-chart [chartData]="chartData"></line-chart>
+      </div>
+    </div>
+
+    <div class="phase-duration">
+      <div>
+        <span *ngIf="graph.averageStudyTimeYear"
+          >{{ graph.averageStudyTimeYear }}<span>Years</span>&nbsp;</span
+        >
+        <span *ngIf="graph.averageStudyTimeMonth"
+          >{{ graph.averageStudyTimeMonth }}<span>Months</span></span
+        >
+      </div>
+      <div>Average Study Time</div>
+      <div class="line-chart">
+        <line-chart [chartData]="chartData2"></line-chart>
+      </div>
+    </div>
+  </div>
+</div>
