@@ -1,0 +1,375 @@
+{
+  "others": {
+    "insights": [
+      {
+        "date": "June 12th, 2017",
+        "title": "First",
+        "description": "i am the first insight"
+      },
+      {
+        "date": "March 2nd, 2019",
+        "title": "Another",
+        "description": "i am just another insight"
+      },
+      {
+        "date": "Aug 1st 2015",
+        "title": "Hurray",
+        "description": "insights are working"
+      },
+      {
+        "date": "June 12th, 2017",
+        "title": "First",
+        "description": "i am the first insight"
+      },
+      {
+        "date": "March 2nd, 2019",
+        "title": "Another",
+        "description": "i am just another insight"
+      },
+      {
+        "date": "Aug 1st 2015",
+        "title": "Hurray",
+        "description": "insights are working"
+      },
+      {
+        "date": "June 12th, 2017",
+        "title": "First",
+        "description": "i am the first insight"
+      },
+      {
+        "date": "March 2nd, 2019",
+        "title": "Another",
+        "description": "i am just another insight"
+      },
+      {
+        "date": "Aug 1st 2015",
+        "title": "Hurray",
+        "description": "insights are working"
+      }
+    ],
+    "otherSummary": [
+      {
+        "title": "Latest Stage NME's",
+        "currentResult": "10",
+        "hint1": "#2 Ranking",
+        "hint2": "Behind Novartis (14) & Pfizer(12)"
+      },
+      {
+        "title": "NME's Approved",
+        "currentResult": "6",
+        "hint1": "#1 Ranking",
+        "hint2": null
+      },
+      {
+        "title": "R&D Spend",
+        "currentResult": "$5.2B",
+        "hint1": "#3 Ranking",
+        "hint2": "Behind Abbive ($3.8B) & BMS ($4.2B)"
+      }
+    ]
+  },
+  "trial": {
+    "trialPhaseSummary": {
+      "title": "TOTAL NME'S APPROVED",
+      "currentResult": "4.3%",
+      "hint1": "6 REGULATORY APPROVALS",
+      "hint2": "116 TARGETED"
+    },
+    "trialPhaseDetails": [
+      {
+        "result": "10/236",
+        "category": "NME PIPELINE",
+        "rank": "#2 Ranking",
+        "hint": "Behind Novartis (14) & Pfizer(12)"
+      },
+      {
+        "result": "6/11",
+        "category": "APPROVED",
+        "rank": "#1 Ranking",
+        "hint": null
+      },
+      {
+        "result": "$5.2B",
+        "category": "R&D SPEND",
+        "rank": "#3 Ranking",
+        "hint": "Abbvie ($3.8B) & BMS($4.2B)"
+      },
+      {
+        "result": "83.5$",
+        "category": "Patient Experience",
+        "rank": "#1 Ranking",
+        "hint": null
+      }
+    ],
+    "trialPhaseCompleteDetail": [
+      {
+        "title": "PHASE3 TRIALS",
+        "description": "Here is some plain language around how studies in this phase are going. We want to give some human readable insight here in order to quantify the numbers",
+        "details": [
+          {
+            "title": "TRIALS",
+            "result": "18",
+            "description": "Current Trials",
+            "growth": "4.8% vs prior 13 Weeks"
+          },
+          {
+            "title": "DURATION",
+            "result": "2y 5m",
+            "description": "Average Trial Duration",
+            "growth": "2.2% vs prior 13 Weeks"
+          },
+          {
+            "title": "COST",
+            "result": "$14.2M",
+            "description": "Average Cost",
+            "growth": "2.1% vs prior 13 Weeks"
+          },
+          {
+            "title": "RECRUITMENT",
+            "result": "102%",
+            "description": "Average Recruitment",
+            "growth": "1.1% vs prior 13 Weeks"
+          }
+        ],
+        "insights": [
+          {
+            "date": "July 12th, 2017",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "May 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          },
+          {
+            "date": "Aug 1st 2015",
+            "title": "Hurray",
+            "description": "insights are working"
+          },
+          {
+            "date": "Jan 1st, 2014",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "Feb 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          }
+        ]
+      },
+      {
+        "title": "PHASE2 TRIALS",
+        "description": "Here is some plain language around how studies in this phase are going. We want to give some human readable insight here in order to quantify the numbers",
+        "details": [
+          {
+            "title": "TRIALS",
+            "result": "26",
+            "description": "Current Trials",
+            "growth": "4.8% vs prior 13 Weeks"
+          },
+          {
+            "title": "DURATION",
+            "result": "1y 1m",
+            "description": "Average Trial Duration",
+            "growth": "2.2% vs prior 13 Weeks"
+          },
+          {
+            "title": "COST",
+            "result": "$5.2M",
+            "description": "Average Cost",
+            "growth": "2.1% vs prior 13 Weeks"
+          },
+          {
+            "title": "RECRUITMENT",
+            "result": "97%",
+            "description": "Average Recruitment",
+            "growth": "1.1% vs prior 13 Weeks"
+          }
+        ],
+        "insights": [
+          {
+            "date": "June 12th, 2017",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "March 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          },
+          {
+            "date": "Aug 1st 2015",
+            "title": "Hurray",
+            "description": "insights are working"
+          },
+          {
+            "date": "Jan 1st, 2014",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "Feb 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          }
+        ]
+      },
+      {
+        "title": "PHASE1 TRIALS",
+        "description": "Here is some plain language around how studies in this phase are going. We want to give some human readable insight here in order to quantify the numbers",
+        "details": [
+          {
+            "title": "TRIALS",
+            "result": "36",
+            "description": "Current Trials",
+            "growth": "1.8% vs prior 13 Weeks"
+          },
+          {
+            "title": "DURATION",
+            "result": "2y 5m",
+            "description": "Average Trial Duration",
+            "growth": "5.2% vs prior 13 Weeks"
+          },
+          {
+            "title": "COST",
+            "result": "$14.2M",
+            "description": "Average Cost",
+            "growth": "4.3% vs prior 13 Weeks"
+          },
+          {
+            "title": "RECRUITMENT",
+            "result": "102%",
+            "description": "Average Recruitment",
+            "growth": "0.7% vs prior 13 Weeks"
+          }
+        ],
+        "insights": [
+          {
+            "date": "Jan 1st, 2014",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "Feb 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          },
+          {
+            "date": "Aug 1st 2015",
+            "title": "Hurray",
+            "description": "insights are working"
+          },
+          {
+            "date": "Jan 1st, 2014",
+            "title": "First",
+            "description": "i am the first insight"
+          },
+          {
+            "date": "Feb 2nd, 2019",
+            "title": "Another",
+            "description": "i am just another insight"
+          }
+        ]
+      }
+    ],
+    "trialPhaseDetailGraph": [
+      {
+        "phase": "Phase 1",
+        "rank": "#2 Ranking",
+        "result": "26/52",
+        "status": "SUCCESSFUL",
+        "averageCost": "$1.8M",
+        "averageStudyTimeYear": null,
+        "averageStudyTimeMonth": "5"
+      },
+      {
+        "phase": "Phase 2",
+        "rank": "#2 Ranking",
+        "result": "10/26",
+        "status": "SUCCESSFUL",
+        "averageCost": "$6.3M",
+        "averageStudyTimeYear": null,
+        "averageStudyTimeMonth": "14"
+      },
+      {
+        "phase": "Phase 3",
+        "rank": "#1 Ranking",
+        "result": "6/10",
+        "status": "SUCCESSFUL",
+        "averageCost": "$87M",
+        "averageStudyTimeYear": "2",
+        "averageStudyTimeMonth": "3"
+      }
+    ]
+  },
+  "patent": {
+    "patents": [
+      { "count": 83, "status": "Filed" },
+      { "count": 42, "status": "Pending" },
+      { "count": 31, "status": "Approved" },
+      { "count": 10, "status": "Rejected" }
+    ],
+    "publications": {
+      "value": "89/250",
+      "hint": "Total 2019 Publications YTD / Target"
+    }
+  },
+  "lineChart": {
+    "chart": {
+      "data": [
+        2,
+        4,
+        3,
+        6,
+        6,
+        7,
+        8,
+        7,
+        6,
+        6.5,
+        7,
+        7,
+        8.5,
+        10,
+        11,
+        10,
+        8,
+        6,
+        4,
+        3,
+        2.5
+      ],
+      "color": "#52A1FE"
+    },
+    "chart2": {
+      "data": [
+        4,
+        4,
+        2,
+        4,
+        6,
+        8,
+        6,
+        4,
+        3,
+        3,
+        3,
+        4,
+        4,
+        3.5,
+        4,
+        6,
+        8,
+        7,
+        6,
+        5,
+        4,
+        4,
+        2
+      ],
+      "color": "#D7D7D7"
+    }
+  }
+}
